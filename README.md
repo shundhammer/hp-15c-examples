@@ -23,6 +23,40 @@ So here are some examples showing how to get from modern high-level programming
 languages to the HP-15C.
 
 
+## But... WHY?
+
+Yes, everybody has a PC (or a Mac) these days.
+
+Yes, even a modern smartphone is light years ahead of those 1980s era
+programmable calculators in terms of raw calculating power, memory (both RAM
+and mass storage) and versatility.
+
+But not only was it cool back then (in the 1980s), a lot of people (including
+me) made their first steps in programming on those devices. It was demanding;
+it was a rough way to get into the trade. It could only do numeric stuff. It
+was limiting in every aspect: Program size, available registers, usability.
+
+You had to know how to feed your program with the data it needed, and you had
+to know what output of your program meant exactly what.
+
+But that meant that it took quite some skill to do anything worthwhile with
+those devices; it was challenging, you had to know your platform very well, and
+you were forced to program efficiently and not waste program steps, registers
+or, worst, computing cycles.
+
+You learned a lot about programming with those devices. You could not afford to
+do anything in an inefficient way; you'd run out of resources pretty soon, or
+your program would run forever.
+
+And it was cool, of course.
+
+Does mankind need that in this day and age? I don't know.
+
+Does nerdkind need that? Sure thing.
+
+Do I need that? You bet.
+
+
 ## Links
 
 - The HP-15C on Wikipedia:
