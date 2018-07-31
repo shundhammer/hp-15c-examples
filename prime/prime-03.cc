@@ -14,7 +14,7 @@
 int main()
 {
     int reg_0 = 3; // candidate
-    int max_candidate = 100;
+    int max_candidate = 1000;
 
 LBL_A: // candidate_loop
     int reg_1 = sqrt( (double) reg_0 ); // max_divisor
