@@ -57,6 +57,65 @@ Does nerdkind need that? Sure thing.
 Do I need that? You bet.
 
 
+## What a HP-15C program looks like
+
+_(Comments added for better readability; the HP-15C platform had no way to add
+comments.)_
+
+This program counts up to the number initially entered and pauses for each step:
+
+```
+f LBL A    # start with button A
+g INT      # whatever the input, use only the integer part
+1000       # divide by 1000
+/
+1          # add 1
++          # loop counter is now 1.007   if the user entered 7 initially
+STO 1      # store in register 1
+f LBL 1    # define label 1 as a jump address for later use
+RCL 1      # recall the contents of register 1 (the loop counter)
+g INT      # use only the integer part
+g PSE      # pause for 2 seconds (and display the current value)
+f ISG 1    # increment register 1 and skip if greater than the loop end value
+GTO 1      # goto label 1 (skip this if loop counter not at its end)
+g RTN      # return (program ends here)
+```
+
+Yes, this looks very much like a (slightly) higher level assembler. That's
+basically what it was.
+
+But in the display which could only display numbers with its 7-segment
+elements, it looked like this:
+
+```
+001 - 42,21,11
+002 - 43  44
+003 - 1
+004 - 0
+005 - 0
+006 - 0
+007 - 10
+008 - 1
+009 - 40
+010 - 44 1
+011 - 42,21, 1
+012 - 45  1
+013 - 43 44
+014 - 42 31
+015 - 42,  6,  1
+016 - 22 1
+017 - 43 32
+```
+
+I.e. each opcode was represented by the keys to be pressed with row and column
+on the keyboard:
+
+42,21,11   f prefix (row #4, col#2), LBL (row #2, col#1), A (row #1, col#1)
+
+This sounds completely crazy, but you get used to this really quickly because
+you hold the reference - the keyboard - in your hand.
+
+
 ## Links
 
 - The HP-15C on Wikipedia:
@@ -73,5 +132,6 @@ other HP pocket calculators), the DM-15L:
   http://hp-15c.homepage.t-online.de/content_web.htm
 
   This piece of software is so cool it can even interact with SwissMicro's
-replica which has a USB port: You can download and upload programs between your PC (or Mac) and the SwissMicro DM-15L.
+replica which has a USB port: You can download and upload programs between your
+PC (or Mac) and the SwissMicro DM-15L.
 
