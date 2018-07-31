@@ -110,7 +110,8 @@ elements, it looked like this:
 I.e. each opcode was represented by the keys to be pressed with row and column
 on the keyboard:
 
-42,21,11   f prefix (row #4, col#2), LBL (row #2, col#1), A (row #1, col#1)
+`42,21,11` `f` prefix (row #4, col#2), `LBL` (row #2, col#1), `A` (row #1, col
+#1)
 
 This sounds completely crazy, but you get used to this really quickly because
 you hold the reference - the keyboard - in your hand.
