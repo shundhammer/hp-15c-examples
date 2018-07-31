@@ -120,6 +120,17 @@ This sounds completely crazy, but you get used to this really quickly because
 you hold the reference - the keyboard - in your hand.
 
 
+## First example: Calculating prime numbers
+
+This shows how to migrate from structured C/C++ code to GOTOs, to the limited
+number of jump labels and registers and finally to real HP-15C code:
+
+  https://github.com/shundhammer/hp-15c-examples/tree/master/prime
+
+Please also check out more example directories as they are added over
+time. They won't all get listed here in this document.
+
+
 ## Links
 
 - The HP-15C on Wikipedia:
