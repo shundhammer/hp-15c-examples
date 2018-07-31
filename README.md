@@ -27,17 +27,17 @@ languages to the HP-15C.
 
 - The HP-15C on Wikipedia:
 
-https://en.wikipedia.org/wiki/HP-15C
+  https://en.wikipedia.org/wiki/HP-15C
 
 - SwissMicros, a company in Switzerland building replicas of the HP-15C (and
 other HP pocket calculators), the DM-15L:
 
-https://www.swissmicros.com/
+  https://www.swissmicros.com/
 
 - A really well-made HP-15C simulator running on Windows, Linux, MacOS X:
 
-http://hp-15c.homepage.t-online.de/features.htm
+  http://hp-15c.homepage.t-online.de/features.htm
 
-This piece of software is so cool it can even interact with SwissMicro's
+  This piece of software is so cool it can even interact with SwissMicro's
 replica which has a USB port: You can download and upload programs between your PC (or Mac) and the SwissMicro DM-15L.
 
