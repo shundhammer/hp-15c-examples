@@ -2,7 +2,7 @@
 
 ## The C/C++ structured approach
 
-https://github.com/shundhammer/hp-15c-examples/blob/master/prime/prime-01.cc
+https://github.com/shundhammer/hp-15c-examples/blob/master/prime/prime-01.cpp
 
 ## C/C++ the HP-15C way with GOTOs
 
@@ -14,7 +14,7 @@ need to use GOTOs and jump labels a lot on that platform.
 So here is the first transition from the pure holy C/C++ gospel to
 assembly-like HP-15C code:
 
-https://github.com/shundhammer/hp-15c-examples/blob/master/prime/prime-02.cc
+https://github.com/shundhammer/hp-15c-examples/blob/master/prime/prime-02.cpp
 
 
 ## HP-15C'ifying it even more
@@ -23,7 +23,7 @@ Since the HP-15C only had numbered registers and jump labels A..E, 0..9 and .0,
 .1, .., .9, this is getting even closer to what you can do on the HP-15C
 platform:
 
-https://github.com/shundhammer/hp-15c-examples/blob/master/prime/prime-03.cc
+https://github.com/shundhammer/hp-15c-examples/blob/master/prime/prime-03.cpp
 
 
 ## The real thing: HP-15C code
